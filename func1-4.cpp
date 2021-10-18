@@ -5,7 +5,9 @@ string itc_hello_str(string name){
 }
 long long itc_len(string str){
     long long i = 0;
-    while(str[i] != '\0')i++;
+    while(str[i] != '\0'){
+        i++;
+    }
     return i;
 }
 void itc_print_copy_str(string str, int number){
