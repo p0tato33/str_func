@@ -14,7 +14,9 @@ string itc_even_place(string str) {
 	string answer = "";
 	for (long long i = 0; i < itc_len(str); i++)
 	{
-		if ((i + 1) % 2 == 0)answer += str[i];
+		if ((i + 1) % 2 == 0){
+		answer += str[i];
+		}
 	}
 	return answer;
 }
