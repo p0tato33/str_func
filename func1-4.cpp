@@ -27,3 +27,4 @@ void itc_first_end_three(string str){
         itc_print_copy_str(sep, len);
     }
 }
+
