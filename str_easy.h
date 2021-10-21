@@ -1,14 +1,14 @@
-#ifndef STR_EASY_H_INCLUDED
-#define STR_EASY_H_INCLUDED
+#ifndef ITC_STR_EASY_H
+#define ITC_STR_EASY_H
 
 #include <iostream>
 #include <string>
 
 using namespace std;
 
-string itc_hello_str(string name);   // 1
-long long itc_len(string str);       // 2
-void itc_print_copy_str(string str, int number);   //3
+string itc_hello_str(string name);
+long long itc_len(string str);
+void itc_print_copy_str(string str, int number);
 void itc_first_end_three(string str);
 int itc_count_char_in_str(char ch, string str);
 string itc_even_place(string str);
@@ -22,4 +22,4 @@ string itc_three_str(string str1, string str2, string str3);
 int itc_max_char_on_end(string str);
 
 
-#endif // STR_EASY_H_INCLUDED
+#endif //ITC_STR_EASY_H
